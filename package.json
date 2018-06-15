@@ -2,19 +2,22 @@
   "name": "gallereasy",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://thuyduc1995.github.io/gallereasy",
   "dependencies": {
     "font-awesome": "^4.7.0",
+    "gh-pages": "^1.2.0",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.5.10",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-fontawesome": "^1.6.1",
-    "react-scripts": "1.1.4",
-    "prop-types": "^15.5.10",
-    "lodash": "^4.17.4"
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy" : "npm run build && gh-pages -d build"
   }
 }
