@@ -1,0 +1,23 @@
+.footerContainer {
+  height: 28px;
+  width: 100%;
+  background-color: #E7E7E7;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: bolder;
+  color: #888888;
+}
+
+.leftFooter {
+  float: left;
+  margin: auto 0 auto 20px;
+}
+
+.rightFooter {
+  display: inline;
+  margin: auto 20px auto 0;
+}
+

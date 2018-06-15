@@ -1,0 +1,32 @@
+.imageContainer {
+  position: relative;
+  margin-bottom: 60px;
+  margin-left: 2vw;
+}
+
+.imageContent {
+  width: 14.7vw;
+  height: 14.7vw;
+}
+
+.heartIconAvailable {
+  position: absolute;
+  color: red;
+  bottom: 20px;
+  right: 15px;
+}
+
+.heartIconInvisible {
+  position: absolute;
+  color: red;
+  bottom: 20px;
+  right: 15px;
+  visibility: hidden;
+}
+
+
+
+.imageContainer:hover .heartIconInvisible {
+  visibility: visible;
+  opacity: 0.4;
+}

@@ -1,0 +1,58 @@
+.headerContainer {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10;
+  background-color: white;
+}
+
+.headerTitle {
+  display: flex;
+  font-size: 33px;
+  padding-top: 13px;
+}
+
+.boldTitle {
+  font-weight: bold;
+}
+
+.leftTitle {
+  display: inline;
+  margin-left: 40px;
+}
+.verticalLine {
+  border-left: 1px solid gray;
+  height: 40px;
+  display: inline;
+  margin-left: 40px;
+}
+
+.rightMenu {
+  float: right;
+  display: inline;
+  margin-left: 20px;
+}
+
+.searchTab {
+  display: inline;
+  margin-left: 20px;
+  color: gray;
+}
+
+.searchTab, .searchTabBold:hover {
+  cursor: grab;
+}
+
+.searchTabBold {
+  display: inline;
+  margin-left: 20px;
+  color: black;
+}
+
+.horizontalLine {
+  border-top: 3px solid lightgray;
+  width: 98vw;
+  margin: 5px 1vw 0 1vw;
+}
